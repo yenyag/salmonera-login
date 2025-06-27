@@ -1,0 +1,1 @@
+UPDATE usuarios SET password_hash = '$2a$10$wzUEkWJj6XtKu2DFYj9rfeYcCk6TKXJlLqLM3yxt8VXHb9aJzUsHy' WHERE email = 'admin@salmonera.com';

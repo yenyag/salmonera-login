@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Salmonera</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-blue-100 via-blue-50 to-white py-10 px-4">
+
+  <div class="max-w-3xl mx-auto bg-white/90 backdrop-blur-md rounded-3xl shadow-xl p-8 border border-blue-200">
+    <h1 class="text-3xl font-bold mb-6 text-center text-blue-800">📊 Reporte de Ventas Mensuales</h1>
+    <canvas id="graficoVentas" class="w-full h-64"></canvas>
+  </div>
+
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>

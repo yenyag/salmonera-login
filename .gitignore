@@ -1,0 +1,16 @@
+# Node modules (si usas algún empaquetador JS)
+node_modules/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales de VS Code
+.vscode/
+
+# Claves API u otros secretos (si los separas)
+.env
+
+# Archivos generados
+dist/
+build/
